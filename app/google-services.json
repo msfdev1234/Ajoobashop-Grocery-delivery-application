@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "778764587998",
+    "firebase_url": "https://ajooba-vegetables.firebaseio.com",
+    "project_id": "ajooba-vegetables",
+    "storage_bucket": "ajooba-vegetables.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:c5fd23d8546054bb04c34f",
+        "android_client_info": {
+          "package_name": "com.madmobiledevs.ajooba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-780ptqm2cagu8qngb0luhrakioas9uoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madmobiledevs.ajooba",
+            "certificate_hash": "02f04d7289d2e5be4805fe1c8651400ca7f7a54a"
+          }
+        },
+        {
+          "client_id": "778764587998-g26bdko59plp30i3gpit0toc6ke2pn8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madmobiledevs.ajooba",
+            "certificate_hash": "6aeee4c1bdd3062c9c409709b40bb736b4595a70"
+          }
+        },
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:5798017cfb86109c04c34f",
+        "android_client_info": {
+          "package_name": "com.madmobiledevs.ajoobapartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:8120c85f63e26c6704c34f",
+        "android_client_info": {
+          "package_name": "com.madmobiledevs.deliverypartnerajooba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-s5lrdmtt4lsi5gj90ctrr0h8sh10gvie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madmobiledevs.deliverypartnerajooba",
+            "certificate_hash": "6aeee4c1bdd3062c9c409709b40bb736b4595a70"
+          }
+        },
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_Whole_Addresses"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <CheckBox
+        android:id="@+id/cash_checkbox_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:visibility="invisible"
+        android:button="@drawable/custom_checkbox"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/type_address_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/cash_checkbox_Addresses"
+        android:layout_marginTop="15dp"
+        android:text="Home"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:textSize="17sp"/>
+    <TextView
+        android:id="@+id/default_Txtw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_toRightOf="@+id/type_address_Addresses"
+        android:layout_marginTop="15dp"
+        android:text="  :  Default Address"
+        android:textColor="#FF0000"
+        android:textStyle="normal"
+        android:textSize="17sp"/>
+
+    <ImageView
+        android:id="@+id/delete_Btn_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/name_TxtVw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type_address_Addresses"
+        android:layout_toRightOf="@+id/cash_checkbox_Addresses"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="Mohammed Mazhar"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/hNo_TxtVw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_TxtVw_Addresses"
+        android:layout_toRightOf="@+id/cash_checkbox_Addresses"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="12-2-875/1"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/flatNo_TxtVw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/name_TxtVw_Addresses"
+        android:layout_toRightOf="@+id/hNo_TxtVw_Addresses"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="3dp"
+        android:text=",   Flat no : 201"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/address_TxtVw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flatNo_TxtVw_Addresses"
+        android:layout_toRightOf="@+id/cash_checkbox_Addresses"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:text="12-21 masabtank hyderabad"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/phone_TxtVw_Addresses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_TxtVw_Addresses"
+        android:layout_toRightOf="@+id/cash_checkbox_Addresses"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="3dp"
+        android:text="ph : 7981848815"
+        android:textColor="#708090"
+        android:textStyle="normal"
+        android:textSize="16sp"/>
+    <View
+        android:id="@+id/line1_Addresse"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/phone_TxtVw_Addresses" />
+
+
+</RelativeLayout>

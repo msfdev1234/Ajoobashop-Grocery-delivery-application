@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/symbol_Orders_Active"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="6dp"
+        android:alpha=".7"
+        android:src="@drawable/ic_baseline_access_time_24"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#F3F3F3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@+id/symbol_Orders_Active">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="5dp">
+
+            <View
+                android:id="@+id/dot_actv"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_processing" />
+
+            <TextView
+                android:id="@+id/order_Status_Dot_TxtVw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dot_actv"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="waiting to accept"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/date_Day_TxtVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Wed 09 Dec 2020"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/time_Slot_Active_Orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_Day_TxtVw"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:text="8:00 AM - 10:00 AM"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/order_Id_Active_Orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_Slot_Active_Orders"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:text="AJ-138686909959"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/amount_Active_Orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order_Id_Active_Orders"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Rs 201"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/items_Total_Active_Orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount_Active_Orders"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="8dp"
+            android:text="2"
+            android:textSize="16sp"
+            android:textColor="#2F4F4F"/>
+
+        <TextView
+            android:id="@+id/sample_Items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount_Active_Orders"
+            android:layout_toRightOf="@+id/items_Total_Active_Orders"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text=" items"
+            android:textSize="16sp"
+            android:textColor="#2F4F4F"/>
+
+        <TextView
+            android:id="@+id/order_Status_Active_Orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount_Active_Orders"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="10dp"
+            android:text="Order Placed"
+            android:textSize="16sp"
+            android:textColor="#2F4F4F"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@android:color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Toolbar_Cart_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar_cart"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_Btn_ImgView_Cart"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_Btn_ImgView_Cart"
+                android:text="Review Cart"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textSize="19sp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_Item_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Toolbar_Cart_Layout"
+        android:layout_above="@+id/bottom_Cart_Layout"/>
+
+    <ImageView
+        android:id="@+id/empty_Cart_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/empty_cart"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_Cart_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#36474f"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/Rs_Sign_Cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs "
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/total_Amount_TxtVw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Rs_Sign_Cart"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="19sp"
+                android:layout_centerVertical="true"/>
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/checkOut_Btn_cart"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_input_add_to_basket"
+            android:text="CheckOut"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

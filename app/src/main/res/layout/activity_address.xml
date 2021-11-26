@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".AddressActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Toolbar_Address_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar_Address"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_Btn_ImgView_Address"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_Btn_ImgView_Address"
+                android:text="Choose Delivery Address"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textSize="19sp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/empty_Addresses_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/nothing_here"
+        android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_layot_addresse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Toolbar_Address_Layout"
+        android:background="#D3D3D3"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/Heading_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="SAVED ADDRESSES"
+            android:textColor="#2F4F4F"
+            android:textSize="17sp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/Add_Address_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="+ADD NEW ADDRESS"
+            android:textColor="#0000FF"
+            android:textSize="16sp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:gravity="right"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_Addresses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_layot_addresse1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

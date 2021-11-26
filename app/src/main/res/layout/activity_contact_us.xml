@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".contactUsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Toolbar_contactUs_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar_contactUs"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_Btn_ImgView_contactUs"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_Btn_ImgView_contactUs"
+                android:text="Contact Us"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textSize="19sp"/>
+
+            <ImageView
+                android:id="@+id/test_Image_contactUS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_headset_mic_24"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:alpha="0.5"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/app_Logo__contactUs"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/Toolbar_contactUs_Layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:alpha=".9"
+        android:elevation="5dp"
+        android:src="@drawable/symbol_png" />
+
+    <TextView
+        android:id="@+id/txt_1_contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_Logo__contactUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hi!"
+        android:textColor="#2F4F4F"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/txt_2_contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_1_contactUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="We are ready to help you."
+        android:textColor="#2F4F4F"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/txt_3_contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_2_contactUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Our service hour is"
+        android:textStyle="bold"
+        android:textColor="#2F4F4F"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/txt_4_contactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_3_contactUs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Monday-Sunday (7am - 10pm)"
+        android:textColor="#2F4F4F"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/txt_4_contactUs"
+        android:layout_marginTop="20sp">
+
+        <RelativeLayout
+            android:id="@+id/call_Btn_ContctUs"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/call_Symbol"
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/call_symbol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/call_Symbol"
+                android:gravity="center"
+                android:text="Call"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/whatsApp_Btn_ContctUs"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/whatsApp_Symbol"
+                android:layout_height="80dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/whatsapp_symbol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/whatsApp_Symbol"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="whatsApp"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/email_Btn_ContctUs"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:layout_gravity="left">
+
+            <ImageView
+                android:id="@+id/email_Symbol"
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/email_symbol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_Symbol"
+                android:gravity="center"
+                android:text="email"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

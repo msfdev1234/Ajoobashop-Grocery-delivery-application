@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeVerificationActivity"
+    android:background="#FFFFFF">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Toolbar_Code_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar_Code"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_Btn_ImgView"
+                android:text="Ajooba Groceries"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginLeft="6dp"
+                android:textSize="20sp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/heading_Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Toolbar_Code_Layout"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="CODE"
+        android:textColor="@android:color/black"
+        android:textSize="90dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heading_Code_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading_Code"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/andika"
+        android:gravity="center"
+        android:text="VERIFICATION"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/hint_code_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading_Code_1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/andika"
+        android:gravity="center"
+        android:text="Enter one time password(OTP) sent on"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/hint_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hint_code_Header"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/andika"
+        android:gravity="center"
+        android:text="7981848815"
+        android:textColor="#010cb1"
+        android:textSize="22sp" />
+
+    <com.chaos.view.PinView
+        android:id="@+id/PinView_Code"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hint_code"
+        android:layout_marginTop="15dp"
+        android:cursorVisible="true"
+        android:hint="Hint."
+        android:inputType="number"
+        android:itemBackground="@color/colorBackroud"
+        android:padding="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cursorColor="@android:color/black"
+        app:cursorWidth="2dp"
+        app:hideLineWhenFilled="true"
+        app:itemCount="6"
+        app:itemHeight="48dp"
+        app:itemRadius="4dp"
+        app:itemSpacing="5dp"
+        app:itemWidth="48dp"
+        app:lineColor="@android:color/black"
+        app:lineWidth="2dp"
+        android:layout_centerHorizontal="true"
+        app:viewType="rectangle"/>
+
+    <Button
+        android:id="@+id/Verify_OTP_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/PinView_Code"
+        android:background="@drawable/input_bc_yellow"
+        android:layout_centerHorizontal="true"
+        android:text="Verify Code"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+    <ProgressBar
+        android:id="@+id/progress_bar_Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@id/Verify_OTP_Btn"
+        android:layout_centerHorizontal="true"
+        android:indeterminateTint="#ffe301"/>
+
+
+</RelativeLayout>

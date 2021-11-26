@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/dialog_Heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Available quantities for"
+        android:textSize="18sp"
+        android:textColor="#808080"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/product_Name_TxtVw_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_Heading1"
+        android:layout_marginTop="4dp"
+        android:text="Tomatoes/ Tamatar"
+        android:textSize="20sp"
+        android:textColor="#4E4E4E"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/line1_quantity_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/product_Name_TxtVw_Dialog" />
+
+    <RelativeLayout
+        android:id="@+id/Quantity1_Btn_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/line1_quantity_Dialog">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/quantity1_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="500"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/unit1_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/quantity1_Dialog"
+                android:text="g"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/sampleDash1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/unit1_Dialog"
+                android:text="–"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/sampleMRP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleDash1"
+                android:text="Rs"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/MRP1_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleMRP1"
+                android:text="50"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/sampleRate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/MRP1_Dialog"
+                android:text="Rs"
+                android:textSize="20sp"
+                android:textColor="#676767"/>
+
+            <TextView
+                android:id="@+id/rate1_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleRate1"
+                android:text="30"
+                android:textSize="20sp"
+                android:textColor="#676767"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line2_quantity_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/Quantity1_Btn_Dialog" />
+
+    <RelativeLayout
+        android:id="@+id/Quantity2_Btn_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/line2_quantity_Dialog"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/quantity2_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="500"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/unit2_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/quantity2_Dialog"
+                android:text="g"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/sampleDash2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/unit2_Dialog"
+                android:text="–"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/sampleMRP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleDash2"
+                android:text="Rs"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/MRP2_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleMRP2"
+                android:text="50"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/sampleRate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/MRP2_Dialog"
+                android:text="Rs"
+                android:textSize="20sp"
+                android:textColor="#676767"/>
+
+            <TextView
+                android:id="@+id/rate2_Dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/sampleRate2"
+                android:text="30"
+                android:textSize="20sp"
+                android:textColor="#676767"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

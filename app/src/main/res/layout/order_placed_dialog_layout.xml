@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Toolbar_orderPlaced_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/Toolbar_orderPlaced"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/back_Btn_ImgView_orderPlaced"
+                android:text="Order Succesfull"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_marginLeft="20sp"
+                android:textSize="19sp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/top_orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Toolbar_orderPlaced_Layout"
+        android:gravity="center"
+        android:text="Thank you for choosing \nAjooba"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/right_orderPlaced"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/top_orderPlaced_TxtVw_test"
+        android:background="@drawable/ic_baseline_check_circle_green_24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/right_orderPlaced"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Order placed succesfully"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/test1_orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderPlaced_TxtVw_test"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="We'll deliver your order soon"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/test_IdOrder_orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test1_orderPlaced_TxtVw_test"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Your order ID is"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/IdOrder_orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test_IdOrder_orderPlaced_TxtVw_test"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="#208686909959"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/okayBtn_orderPlaced_TxtVw_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="Okay"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

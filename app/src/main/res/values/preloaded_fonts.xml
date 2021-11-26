@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/alice</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/amiko</item>
+        <item>@font/andika</item>
+        <item>@font/anton</item>
+        <item>@font/archivo_black</item>
+        <item>@font/arimo</item>
+        <item>@font/athiti_semibold</item>
+        <item>@font/atma_semibold</item>
+        <item>@font/basic</item>
+        <item>@font/bubbler_one</item>
+        <item>@font/candal</item>
+        <item>@font/catamaran_semibold</item>
+        <item>@font/galdeano</item>
+        <item>@font/headland_one</item>
+        <item>@font/montserrat</item>
+        <item>@font/nova_round</item>
+        <item>@font/prociono</item>
+        <item>@font/roboto</item>
+        <item>@font/salsa</item>
+        <item>@font/sniglet</item>
+        <item>@font/sumana</item>
+    </array>
+</resources>

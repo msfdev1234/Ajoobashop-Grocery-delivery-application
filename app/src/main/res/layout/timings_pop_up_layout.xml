@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/day_Txt_Vw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dp"
+        android:background="#DCDCDC"
+        android:text="Today"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/day_Txt_Vw"
+        android:layout_marginLeft="20dp"
+        android:text="7:00 AM - 9:00 AM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+    <View
+        android:id="@+id/line1_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time1" />
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line1_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="9:00 AM - 11:00 AM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+    <View
+        android:id="@+id/line2_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time2" />
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line2_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="11:00 AM - 1:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+
+    <View
+        android:id="@+id/line3_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time3" />
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line3_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="1:00 PM - 3:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+    <View
+        android:id="@+id/line4_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time4" />
+    <TextView
+        android:id="@+id/time5"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line4_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="3:00 PM - 5:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+    <View
+        android:id="@+id/line5_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time5" />
+    <TextView
+        android:id="@+id/time6"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line5_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="5:00 PM - 7:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+    <View
+        android:id="@+id/line6_timings_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/time6" />
+
+    <TextView
+        android:id="@+id/time7"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/line6_timings_Dialog"
+        android:layout_marginLeft="20dp"
+        android:text="7:00 PM - 9:00 PM"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_baseline_access_time_24"
+        android:drawablePadding="6dp"
+        android:drawableTint="#808080"/>
+
+</RelativeLayout>

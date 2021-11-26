@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madmobiledevs.ajooba">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddNewAddressActivity"></activity>
+        <activity android:name=".contactUsActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".Order_ProductsActivity" />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".PaymentAndOrderPlaceActivity" />
+        <activity android:name=".DeliveryOptionsActivity" />
+        <activity android:name=".Vegeteable_SubCategory_Activity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CodeVerificationActivity" />
+        <activity android:name=".Login_SignUp_Activity" />
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCgGa22KPL4COnRqYfC3BjERA6UvNzPLp8" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_mn4CJrrBFk9Cgl" />
+    </application>
+
+</manifest>
