@@ -254,11 +254,11 @@ public class HomeFragment extends Fragment {
     }
 
     private String getCurrentVersion(){
-        PackageManager pm = getActivity().getPackageManager();
+        PackageManager pm = getContext().getPackageManager();
         PackageInfo pInfo = null;
 
         try {
-            pInfo =  pm.getPackageInfo(getActivity().getPackageName(),0);
+            pInfo =  pm.getPackageInfo(getContext().getPackageName(),0);
 
         } catch (PackageManager.NameNotFoundException e1) {
             e1.printStackTrace();

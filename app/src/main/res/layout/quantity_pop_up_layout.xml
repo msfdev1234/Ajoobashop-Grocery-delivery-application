@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:background="@android:color/white">
 
+
+
     <TextView
         android:id="@+id/dialog_Heading1"
         android:layout_width="match_parent"
@@ -226,6 +228,7 @@
 
 
         </RelativeLayout>
+
 
 
     </RelativeLayout>

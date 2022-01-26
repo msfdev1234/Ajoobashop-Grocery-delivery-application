@@ -105,15 +105,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         initMapsAndPlaces();
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Intent a = new Intent(Intent.ACTION_MAIN);
-        a.addCategory(Intent.CATEGORY_HOME);
-        a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(a);
-    }
-
     private void initViews(){
         materialSearchBar = findViewById(R.id.searchBar);
         CustomButton submitLocationButton = findViewById(R.id.submit_location_button);

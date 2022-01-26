@@ -3,20 +3,20 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 repositories {
-    mavenCentral()
+    maven { url "https://jitpack.io" }
 
 }
 
 android {
-    compileSdkVersion 29
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.madmobiledevs.ajooba"
         minSdkVersion 26
-        targetSdkVersion 29
-        versionCode 4
-        versionName "1.0.3"
+        targetSdkVersion 30
+        versionCode 6
+        versionName "1.0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,14 +30,14 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
-    implementation project(path: ':SimplePlacePicker-master')
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+//    implementation fileTree(dir: "libs", include: ["*.jar"])
+//    implementation 'androidx.appcompat:appcompat:1.2.0'
+//    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+//    implementation project(path: ':SimplePlacePicker-master')
+//    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.navigation:navigation-runtime:2.0.0'
@@ -62,8 +62,7 @@ dependencies {
     implementation 'com.razorpay:checkout:1.5.16'
 
     implementation 'org.jsoup:jsoup:1.13.1'
-
-
+    implementation project(path: ':SimplePlacePicker-master')
 
 
 }

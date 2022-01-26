@@ -49,6 +49,8 @@ public class AddressActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_address);
 
+        Paper.init(this);
+
 
         empty_Image = findViewById(R.id.empty_Addresses_Icon);
         recyclerVwAddresses = findViewById(R.id.recyclerView_Addresses);

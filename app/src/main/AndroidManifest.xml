@@ -42,7 +42,7 @@
             android:value="AIzaSyCgGa22KPL4COnRqYfC3BjERA6UvNzPLp8" />
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_live_mn4CJrrBFk9Cgl" />
+            android:value="rzp_live_WkPqIQ4Y8FIQDj" />
     </application>
 
 </manifest>

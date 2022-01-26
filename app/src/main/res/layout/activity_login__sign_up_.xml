@@ -10,22 +10,35 @@
         <RelativeLayout
             android:id="@+id/Header_LoginSignup"
             android:layout_width="match_parent"
-            android:layout_height="320dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:background="#B2EC29">
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/ajooba_logo_signupLogin"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ajooba_playstore_logo" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="180dp"
+                android:id="@+id/ajooba_name_signupLogin"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/ajooba_logo_signupLogin"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="30dp"
-                android:src="@drawable/symbol_png" />
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ajooba_logo_wname_nologo" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:elevation="10dp"
+                android:layout_below="@+id/ajooba_name_signupLogin"
                 android:layout_alignParentBottom="true">
                 <RelativeLayout
                     android:layout_width="match_parent"

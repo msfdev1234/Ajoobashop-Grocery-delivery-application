@@ -34,11 +34,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_centerInParent="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
                     android:text="Delivery Options"
                     android:textColor="@android:color/white"
-                    android:gravity="center"
-                    android:layout_marginLeft="25dp"
-                    android:textSize="19sp"/>
+                    android:textSize="19sp" />
             </RelativeLayout>
 
         </androidx.appcompat.widget.Toolbar>
@@ -65,12 +65,11 @@
                 android:id="@+id/map_Icon_ImgVw_Btn"
                 android:layout_width="350dp"
                 android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/map_icon"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"/>
+                android:background="@drawable/map_icon" />
 
         </RelativeLayout>
 
@@ -148,19 +147,21 @@
             android:textColor="@android:color/black"
             android:textSize="17sp"
             android:checked="false" />
+
         <CheckBox
             android:id="@+id/tomorrow_CheckBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_2_DeliveryOptions"
-            android:layout_toRightOf="@+id/today_CheckBox"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/today_CheckBox"
             android:button="@drawable/check_box_selector"
+            android:checked="false"
             android:text="Tomorrow"
             android:textColor="@android:color/black"
             android:textSize="17sp"
-            android:checked="false" />
+            tools:ignore="TouchTargetSizeCheck" />
 
 
         <RelativeLayout

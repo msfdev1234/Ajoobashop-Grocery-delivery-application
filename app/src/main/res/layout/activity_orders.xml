@@ -48,7 +48,7 @@
             android:layout_height="40dp"
             android:layout_below="@+id/Toolbar_Orders_Layout"
             android:orientation="horizontal"
-            android:background="#689f39">
+            android:background="@color/colorPrimary">
 
             <RelativeLayout
                 android:id="@+id/tab1_Btn_Orders"

@@ -10,7 +10,7 @@
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_alignParentStart="true"
-        android:src="@drawable/img5"/>
+        android:src="@drawable/img5" />
 
     <LinearLayout
         android:layout_width="match_parent"

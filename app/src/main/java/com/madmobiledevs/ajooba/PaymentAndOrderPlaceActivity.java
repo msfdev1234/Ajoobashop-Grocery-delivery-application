@@ -34,6 +34,8 @@ import com.razorpay.PaymentResultListener;
 import org.json.JSONObject;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -219,13 +221,28 @@ public class PaymentAndOrderPlaceActivity extends AppCompatActivity implements P
         }
     }
 
+
+    private void checkMethod(){
+
+
+
+    }
+
     private void place_Order(String paymentStatus, String transactionId) {
 
         final LoadingDialog loadingDialog = new LoadingDialog(this);
 
         loadingDialog.startLoadingDialog();
 
-        final String order_Id = Integer.toString(user_Orders_No + 1) + Paper.book().read(Prevalent.UserPhoneKey).toString();
+ //       final String order_Id1 = Integer.toString(user_Orders_No + 1) + Paper.book().read(Prevalent.UserPhoneKey).toString();
+
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dMyyHms");
+        LocalDateTime now = LocalDateTime.now();
+
+        String last_Digits_Phone = Paper.book().read(Prevalent.UserPhoneKey).toString().substring(Paper.book().read(Prevalent.UserPhoneKey).toString().length() - 4);
+
+        final String order_Id = dtf.format(now) +"" +last_Digits_Phone;
+
 
         if (day.equals("Today")){
             Full_Date = new SimpleDateFormat("EEE, d MMM yyyy", java.util.Locale.ENGLISH).format(Calendar.getInstance().getTime());
@@ -457,15 +474,7 @@ public class PaymentAndOrderPlaceActivity extends AppCompatActivity implements P
 
                                         int check_Count = (int) dataSnapshot.getChildrenCount();
 
-                                        for (int i= 1; i <(int)dataSnapshot.getChildrenCount(); i++){
-                                            check_Count += 1;
 
-                                            String check_order_Id = Integer.toString(check_Count)+phone_Number;
-
-                                            if (!dataSnapshot.child(check_order_Id).exists()){
-                                                break;
-                                            }
-                                        }
 
 
                                         user_Orders_No = check_Count;
