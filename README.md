@@ -1,4 +1,4 @@
-## Ajooba-Grocery Deliver Application For Android
+# Ajooba-Grocery Deliver Application For Android
 
 <p>This repository holds the Android App which is a grocery delivery platform. Ajooba Groceries is an E-commerce application that provides the ease to order fresh grocery to the door step for customers.This project has 3 distinct applications for Customer, Admin and Delivery partner and also has a complete end to end order tracking sytem between customer and the admin of the application.</p>
 
