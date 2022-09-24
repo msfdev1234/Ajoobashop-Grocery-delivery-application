@@ -19,9 +19,12 @@
 <img src="ScreenShots/Screenshot_1.jpg" width="300">      
 <img src="ScreenShots/Screenshot_2.jpg" width="300"> 
 <img src="ScreenShots/Screenshot_3.jpg" width="300"> 
-<img src="ScreenShots/Screenshot_4.jpg" width="300"> 
+<img src="ScreenShots/Screenshot_4.jpg" width="300">
 
-Solarized dark             |  Solarized Ocean
+              Home         |       Order
 :-------------------------:|:-------------------------:
- <img src="ScreenShots/Screenshot_1.jpg" width="300"> |  <img src="ScreenShots/Screenshot_2.jpg" width="300">
+<img src="ScreenShots/Screenshot_1.jpg" width="300"> | <img src="ScreenShots/Screenshot_5.jpg" width="300">      
+<img src="ScreenShots/Screenshot_2.jpg" width="300"> | <img src="ScreenShots/Screenshot_7.jpg" width="300"> 
+<img src="ScreenShots/Screenshot_3.jpg" width="300"> | <img src="ScreenShots/Screenshot_6.jpg" width="300"> 
+<img src="ScreenShots/Screenshot_4.jpg" width="300"> | <img src="ScreenShots/Screenshot_8.jpg" width="300"> 
 
