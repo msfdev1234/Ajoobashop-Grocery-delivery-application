@@ -1,12 +1,8 @@
-# Ajooba-Grocery Deliver Application For Android
-Repository for the PSLab Android App for performing experiments with the Pocket Science Lab open-hardware platform.
+## Ajooba-Grocery Deliver Application For Android
+
 <p>This repository holds the Android App which is a grocery delivery platform. Ajooba Groceries is an E-commerce application that provides the ease to order fresh grocery to the door step for customers.This project has 3 distinct applications for Customer, Admin and Delivery partner and also has a complete end to end order tracking sytem between customer and the admin of the application.</p>
 
-## myIIIT
-
-##### A day to day use app for students at International Institute of Information Technology, Hyderabad
-
-<a href='https://play.google.com/store/apps/details?id=com.trivedi.neel.myiiit&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height = "50" widht = "100"/></a>
+<a href='https://play.google.com/store/apps/details?id=com.ajoobashop.ajooba&hl=en_IN&gl=US'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height = "50" widht = "100"/></a>
 
 #### Features
 - Students can see their mess registration for any month.
