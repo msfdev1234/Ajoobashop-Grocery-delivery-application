@@ -23,5 +23,5 @@
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+ <img src="ScreenShots/Screenshot_1.jpg" width="300"> |  <img src="ScreenShots/Screenshot_2.jpg" width="300">
 
