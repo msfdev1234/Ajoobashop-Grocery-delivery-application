@@ -6,7 +6,7 @@
 
 ## Features
 - User can see all the products listed by admin through admin panel.
-- User can add/edit/remove new addresses of delivery.
+- User can add/edit/remove new addresses of delivery through navigation.
 - Users can place order by choosing their desired time slot and date.
 - Users can save their payment method for future reference.
 
