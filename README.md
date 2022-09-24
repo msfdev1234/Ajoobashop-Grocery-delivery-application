@@ -16,7 +16,7 @@
 
 ##### And all these without any need to logging into any VPN. This app works on any network removing the tiresome job of connecting to intranet everytime students want to check meals/attendance.
 
-<img src="ScreenShots/Screenshot_1.jpg" width="300"> 
+<img src="ScreenShots/Screenshot_1.jpg" width="300"> <img src="ScreenShots/Screenshot_2.jpg" width="300"> 
 <img src="ScreenShots/Screenshot_2.jpg" width="300"> 
 <img src="ScreenShots/Screenshot_3.jpg" width="300"> 
 <img src="ScreenShots/Screenshot_4.jpg" width="300"> 
