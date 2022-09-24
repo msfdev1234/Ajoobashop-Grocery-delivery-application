@@ -18,7 +18,7 @@
 
 <style type="text/css"> 
   .padded img { 
-    padding-left: 40em; 
+    padding-left: 500em; 
     padding-right: 6em; 
   } 
   </style> 
