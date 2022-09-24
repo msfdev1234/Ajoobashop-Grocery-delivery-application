@@ -5,20 +5,22 @@
 <a href='https://play.google.com/store/apps/details?id=com.ajoobashop.ajooba&hl=en_IN&gl=US'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height = "100" widht = "200"/></a>
 
 ## Features
-- Students can see their mess registration for any month.
-- Students can cancel their meals in single click
-- Students can keep track of their attendance in current as well as past course
+- User can see all the products listed by admin through admin panel.
+- User can add/edit/remove new addresses of delivery.
+- Users can place order by choosing their desired time slot and date.
+- Users can save their payment method for future reference.
 
 ##### Upcoming Features
-- Mess changing option
-- Assignment deadline notificatios and submission
+- featured products through machine learning
+- Referal for user account
 - Courier notifications
+- Auto order feature
 
-##### And all these without any need to logging into any VPN. This app works on any network removing the tiresome job of connecting to intranet everytime students want to check meals/attendance.
+##### The user is provided with a profile activity to view the order data and login and logout from account.
 
                Home                        |                     Order
 
-<img src="ScreenShots/Screenshot_1.jpg" width="300">   <img src="ScreenShots/Screenshot_5.jpg" width="300" padding-left: 50px><br>
+<img src="ScreenShots/Screenshot_1.jpg" width="300">   <img src="ScreenShots/Screenshot_5.jpg" width="300"><br>
 <br>
 <img src="ScreenShots/Screenshot_2.jpg" width="300">  <img src="ScreenShots/Screenshot_7.jpg" width="300"><br>
 <br>
