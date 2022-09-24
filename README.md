@@ -16,8 +16,8 @@
 
 ##### And all these without any need to logging into any VPN. This app works on any network removing the tiresome job of connecting to intranet everytime students want to check meals/attendance.
 
-<img src="ScreenShots/home.png" height="500" width="300"> 
-<img src="ScreenShots/meals.png" height="500" width="300"> 
-<img src="ScreenShots/cancel.png" height="500" width="300"> 
-<img src="ScreenShots/attendance.png" height="500" width="300"> 
+<img src="ScreenShots/Google Pixel 4 XL Screenshot 0.png" height="500" width="300"> 
+<img src="ScreenShots/Google Pixel 4 XL Screenshot 1..png" height="500" width="300"> 
+<img src="ScreenShots/Google Pixel 4 XL Screenshot 2.png" height="500" width="300"> 
+<img src="ScreenShots/Google Pixel 4 XL Screenshot 3.png" height="500" width="300"> 
 
