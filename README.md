@@ -16,19 +16,12 @@
 
 ##### And all these without any need to logging into any VPN. This app works on any network removing the tiresome job of connecting to intranet everytime students want to check meals/attendance.
 
-<style type="text/css"> 
-  .padded img { 
-    padding-left: 500em; 
-    padding-right: 6em; 
-  } 
-  </style> 
-
                                  Home                                     |                                     Order
 
-<img src="ScreenShots/Screenshot_1.jpg" width="300"> | <img class="padded" src="ScreenShots/Screenshot_5.jpg" width="300">
-<img src="ScreenShots/Screenshot_2.jpg" width="300"> | <img src="ScreenShots/Screenshot_7.jpg" width="300">
-<img src="ScreenShots/Screenshot_3.jpg" width="300"> | <img src="ScreenShots/Screenshot_6.jpg" width="300"> 
-<img src="ScreenShots/Screenshot_4.jpg" width="300"> | <img src="ScreenShots/Screenshot_8.jpg" width="300"> 
+<img src="ScreenShots/Screenshot_1.jpg" width="300"> | <img src="ScreenShots/Screenshot_5.jpg" width="300"><br>
+<img src="ScreenShots/Screenshot_2.jpg" width="300"> | <img src="ScreenShots/Screenshot_7.jpg" width="300"><br>
+<img src="ScreenShots/Screenshot_3.jpg" width="300"> | <img src="ScreenShots/Screenshot_6.jpg" width="300"><br>
+<img src="ScreenShots/Screenshot_4.jpg" width="300"> | <img src="ScreenShots/Screenshot_8.jpg" width="300"><br>
 
 
 Solarized dark             |  Solarized Ocean
