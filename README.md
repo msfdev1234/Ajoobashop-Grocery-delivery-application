@@ -2,7 +2,7 @@
 
 <p>This repository holds the Android App which is a grocery delivery platform. Ajooba Groceries is an E-commerce application that provides the ease to order fresh grocery to the door step for customers.This project has 3 distinct applications for Customer, Admin and Delivery partner and also has a complete end to end order tracking sytem between customer and the admin of the application.</p>
 
-<a href='https://play.google.com/store/apps/details?id=com.ajoobashop.ajooba&hl=en_IN&gl=US'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height = "50" widht = "100"/></a>
+<a href='https://play.google.com/store/apps/details?id=com.ajoobashop.ajooba&hl=en_IN&gl=US'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height = "100" widht = "200"/></a>
 
 ## Features
 - Students can see their mess registration for any month.
