@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:background="@android:color/white">
+
             <ImageView
                 android:id="@+id/ajooba_logo_signupLogin"
                 android:layout_width="match_parent"

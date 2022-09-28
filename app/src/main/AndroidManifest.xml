@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.madmobiledevs.ajooba">
+    package="com.ajoobashop.ajooba">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -14,19 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddNewAddressActivity"></activity>
-        <activity android:name=".contactUsActivity" />
-        <activity android:name=".AddressActivity" />
-        <activity android:name=".Order_ProductsActivity" />
-        <activity android:name=".OrdersActivity" />
-        <activity android:name=".PaymentAndOrderPlaceActivity" />
-        <activity android:name=".DeliveryOptionsActivity" />
-        <activity android:name=".Vegeteable_SubCategory_Activity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".CodeVerificationActivity" />
-        <activity android:name=".Login_SignUp_Activity" />
-        <activity android:name=".ProductActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ajoobashop.ajooba.AddNewAddressActivity"></activity>
+        <activity android:name="com.ajoobashop.ajooba.contactUsActivity" />
+        <activity android:name="com.ajoobashop.ajooba.AddressActivity" />
+        <activity android:name="com.ajoobashop.ajooba.Order_ProductsActivity" />
+        <activity android:name="com.ajoobashop.ajooba.OrdersActivity" />
+        <activity android:name="com.ajoobashop.ajooba.PaymentAndOrderPlaceActivity" />
+        <activity android:name="com.ajoobashop.ajooba.DeliveryOptionsActivity" />
+        <activity android:name="com.ajoobashop.ajooba.Vegeteable_SubCategory_Activity" />
+        <activity android:name="com.ajoobashop.ajooba.ProfileActivity" />
+        <activity android:name="com.ajoobashop.ajooba.CodeVerificationActivity" />
+        <activity android:name="com.ajoobashop.ajooba.Login_SignUp_Activity" />
+        <activity android:name="com.ajoobashop.ajooba.ProductActivity" />
+        <activity android:name="com.ajoobashop.ajooba.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

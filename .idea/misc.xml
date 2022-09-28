@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/drawable/button_input_add_to_basket.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/drawable/ic_baseline_check_circle_green_24.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/activity_code_verification.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/activity_login__sign_up_.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/activity_product.xml" value="0.264" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/fragment_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/layout_addresses.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/loading_dialog_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/order_items_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/order_placed_dialog_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/products_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/MohdMazhar/AndroidStudioProjects/Ajooba/app/src/main/res/layout/signupfragment.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

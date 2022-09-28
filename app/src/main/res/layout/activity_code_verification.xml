@@ -84,6 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/hint_code"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:cursorVisible="true"
         android:hint="Hint."
@@ -103,8 +104,7 @@
         app:itemWidth="48dp"
         app:lineColor="@android:color/black"
         app:lineWidth="2dp"
-        android:layout_centerHorizontal="true"
-        app:viewType="rectangle"/>
+        app:viewType="rectangle" />
 
     <Button
         android:id="@+id/Verify_OTP_Btn"

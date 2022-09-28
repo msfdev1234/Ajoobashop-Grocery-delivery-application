@@ -12,11 +12,11 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.madmobiledevs.ajooba"
+        applicationId "com.ajoobashop.ajooba"
         minSdkVersion 26
         targetSdkVersion 30
-        versionCode 6
-        versionName "1.0.6"
+        versionCode 8
+        versionName "1.0.8"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -46,9 +46,9 @@ dependencies {
 
     implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
 
-    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
     implementation 'com.google.firebase:firebase-core:11.8.0'
-    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-database:18.0.1'
     implementation 'com.google.firebase:firebase-storage:16.0.1'
     implementation 'com.firebaseui:firebase-ui-database:3.2.2'
 
@@ -63,6 +63,7 @@ dependencies {
 
     implementation 'org.jsoup:jsoup:1.13.1'
     implementation project(path: ':SimplePlacePicker-master')
+
 
 
 }

@@ -8,6 +8,117 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:87f1da9da7ea926504c34f",
+        "android_client_info": {
+          "package_name": "com.ajoobashop.ajooba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-laip1075hvci9outd9g5mrous1dd3rc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajoobashop.ajooba",
+            "certificate_hash": "73344b2cd75e70e3832c46056ac1397ad2d3bf00"
+          }
+        },
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:e5cc021bf6ded49d04c34f",
+        "android_client_info": {
+          "package_name": "com.ajoobashop.ajoobapartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-nr2ts9vkde2p13s60gpdqhogk26i5rp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajoobashop.ajoobapartner",
+            "certificate_hash": "73344b2cd75e70e3832c46056ac1397ad2d3bf00"
+          }
+        },
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778764587998:android:6f87735f8e49e23e04c34f",
+        "android_client_info": {
+          "package_name": "com.ajoobashop.deliverypartnerajooba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778764587998-fq6belchsnmfi5nkptndg2nrbsqk2817.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajoobashop.deliverypartnerajooba",
+            "certificate_hash": "73344b2cd75e70e3832c46056ac1397ad2d3bf00"
+          }
+        },
+        {
+          "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzlKIpYq6Bz98rj4iVA3tjEJgbBUZz-_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778764587998-jrva8ie88r908s29s9loqsgtoi81i83m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:778764587998:android:c5fd23d8546054bb04c34f",
         "android_client_info": {
           "package_name": "com.madmobiledevs.ajooba"
@@ -28,6 +139,14 @@
           "android_info": {
             "package_name": "com.madmobiledevs.ajooba",
             "certificate_hash": "6aeee4c1bdd3062c9c409709b40bb736b4595a70"
+          }
+        },
+        {
+          "client_id": "778764587998-or0dsssb6qa6dihotdu38ppvec0ljbpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madmobiledevs.ajooba",
+            "certificate_hash": "73344b2cd75e70e3832c46056ac1397ad2d3bf00"
           }
         },
         {
